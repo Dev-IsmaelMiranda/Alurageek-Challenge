@@ -1,5 +1,4 @@
 # Challenge-AluraGeek-Ecommerce
----
 
 ## Descripción
 
