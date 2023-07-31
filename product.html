@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3943885706.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Producto</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__item">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/gamepad.svg" alt="Imagen de gamepad">
+                        <h1 class="header__logo-text"><span>Alura</span>Geek</h1>
+                    </a>
+                </div>
+
+                <div class="header__item">
+                    <a href="login.html" class="btn">Login</a>
+                </div>
+
+                <div class="header__item header__search">
+                    <input type="text" placeholder="¿Qué deseas buscar?" data-form-input-search>
+                    <button type="submit" href="#" data-form-btn-search><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="product__hero">
+            <div class="container">
+                <div class="product-information" data-producto></div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products-group">
+                    <div class="product__info">
+                        <h3 class="product__title">Productos similares</h3>
+                    </div>
+
+                    <div class="product__list" data-similar-products>
+                        <!--
+                        <div class="product__item">
+                            <img src="img/product7.png" alt="Imagen producto 7">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+
+                        <div class="product__item">
+                            <img src="img/product2.png" alt="Imagen producto 2">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+
+                        <div class="product__item">
+                            <img src="img/product3.png" alt="Imagen producto 3">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+
+                        <div class="product__item">
+                            <img src="img/product4.png" alt="Imagen producto 4">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+
+                        <div class="product__item">
+                            <img src="img/product5.png" alt="Imagen producto 5">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+
+                        <div class="product__item">
+                            <img src="img/product6.png" alt="Imagen producto 6">
+                            <p>Producto XYZ</p>
+                            <p class="product__precio">$60,00</p>
+                            <a href="#">Ver producto</a>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="container">
+                <div class="contacto__sobrenosotros">
+                    <div class="nosotros">
+                        <div class="header__item">
+                            <a href="#" class="header__logo">
+                                <img src="img/gamepad.svg" alt="Imagen de gamepad">
+                                <h1 class="header__logo-text">Alura<span>Geek</span></h1>
+                            </a>
+                        </div>
+
+                        <nav class="nav">
+                            <ul>
+                                <li><a href="#">Quienes somos</a></li>
+                                <li><a href="#">Politíca de privacidad</a></li>
+                                <li><a href="#">Programa de fidelidad</a></li>
+                                <li><a href="#">Nuestras tiendas</a></li>
+                                <li><a href="#">Quiero ser franquiciado</a></li>
+                                <li><a href="#">Anúncie aquí</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <form action="#" class="form form__about-us">
+                        <h3 class="form__title">Hable con nosotros</h3>
+
+                        <div class="form__caja" id="grupo__nombre">
+                            <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" "
+                                data-type="name">
+                            <label class="form__label" for="nombre">Nombre</label>
+                            <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50
+                                carácteres.</p>
+                        </div>
+
+                        <div class="form__caja" id="grupo__mensaje">
+                            <textarea class="form__input" name="mensaje" id="mensaje" placeholder=" "
+                                data-type="message"></textarea>
+                            <label class="form__label" for="nombre">Escribe tu mensaje</label>
+                            <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300
+                                carácteres.</p>
+                        </div>
+
+                        <div class="form__caja">
+                            <button type="submit" class="btn btn-1">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <p>Desarrollado por Ismael Miranda</p>
+                <p>2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="controllers/validacionContacto.js"></script>
+    <script type="module" src="controllers/product-information-controller.js"></script>
+    <script type="module" src="controllers/busqueda-controller.js"></script>
+</body>
+
+</html>
