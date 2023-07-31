@@ -1,8 +1,11 @@
 # Challenge-AluraGeek-Ecommerce
+---
+
+## Descripción
 
 La empresa AluraGeek necesita llegar a más clientes y aumentar su nivel de ventas, por lo que quieren implementar un e-commerce, llevar a la empresa al siguiente nivel y volverse más digital.
 
-Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe contener los siguientes requisitos:
+El e-commerce debe contener los siguientes requisitos:
 - Una página de inicio que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
 - Un banner que contenga descuentos, promociones o informaciónes relevante del momento.
 - Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
@@ -11,5 +14,5 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 - Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menu administrador.
 - Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
 
-![image](https://user-images.githubusercontent.com/49761835/170903186-25b74cce-0a71-4f26-926b-dad50d46b09a.png)
-
+---
+Se realizó el ejercicio en base al prototipo entregado en figma y de acuerdo a los sprints brindados en Trello
